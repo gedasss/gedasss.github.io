@@ -1,0 +1,29 @@
+# Theme Skin
+skin: night # default, night, plum, sea, soft, steel
+
+t:
+  skip_links: "Skip links"
+  skip_primary_nav: "Skip to primary navigation"
+  skip_content: "Skip to content"
+  skip_footer: "Skip to footer"
+  menu: "Menu"
+  home: "Pagrindinis"
+  about: "Apie"
+  newer: "Newer"
+  older: "Older"
+  email: "E.paštas"
+  subscribe: "Prenumerata"
+  read_more: "Read More"
+  posts: ""
+  page: "Page"
+  of: "of"
+  min_read: "min read"
+  present: "Present"
+
+google_fonts:
+  - name: "Fira Sans"
+    weights: "400,400i,600,600i"
+  - name: "Fira Sans Condensed"
+
+navigation_pages:
+  - apie.md
