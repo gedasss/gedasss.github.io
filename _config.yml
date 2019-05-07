@@ -91,7 +91,7 @@ defaults:
   # _posts
   - scope:
       path: "_posts"
-      type: posts
+      type:
     values:
       layout: posts
 read_time: true
