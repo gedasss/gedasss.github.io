@@ -17,22 +17,13 @@ lang: lt-LT
 title: UAB "Baltijos statybų vystytojas"
 #alt_title: "Basically Basic"
 #sub_title: "The name says it all"
-introduction: |
-    Basically Basic is a Jekyll theme meant to be a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found in Minima are fully supported by **Basically Basic**.
-actions:
-  - label: "Learn More"
-    icon: github  # references name of svg icon, see full list below
-    url: "http://url-goes-here.com"
-  - label: "Download"
-    icon: download  # references name of svg icon, see full list below
-    url: "http://url-goes-here.com"
 
 image: /assets/page.jpg # URL to a hero image associated with the post (e.g., /assets/page.jpg)
 comments: false  # disable comments on this post
 
 
 email: info@baltijossv.lt
-description: "įmonės Baltijos statybų vystytojas, UAB (įmonės kodas 305135115) informaciją, rekvizitus, logotipą, nuotraukas, Jūsų veiklą apibūdinančius raktažodžius. Primename, kad bendrovės, apie kurias įvesta daugiau naudingos informacijos, rodomos aukščiau įmonių katalogo paieškos rezultatuose."
+description: "įmonės Baltijos statybų vystytojas, UAB (įmonės kodas 305135115) "
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.baltijossv.lt" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -43,7 +34,7 @@ logo: # path of site logo, e.g. "/assets/images/logo.png"
 search:  false #, false (default)
 search_full_content: false # true, false (default)
 search_provider: # lunr (default), algolia
-copyright: "Baltijos statybų vystytojas"
+#copyright: "2019 Baltijos statybų vystytojas, UAB"
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -93,5 +84,5 @@ defaults:
       path: "_posts"
       type:
     values:
-      layout: posts
+      layout: home
 read_time: true
